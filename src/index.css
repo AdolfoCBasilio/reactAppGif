@@ -1,0 +1,96 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  background: #2D2E30;
+  color: white;
+}
+h1{
+  margin-left: 3%;
+  color:rgba(255, 255, 255, 0.6);
+}
+
+section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.BuscadorH1{
+  margin-left: 1%;
+  font-size: 200%;
+  color: rgba(4, 208, 244, 0.9);
+}
+.CabeceraImg{
+  margin-right: 1%;
+  width: 4%;
+  clip-path: circle(40% at center);
+}
+
+
+form{
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.BuscadorImg{
+  width: 40%;
+  clip-path: circle(30% at center);
+}
+input{
+  border-radius: 10px;
+  border-style: none;
+  color: rgb(255, 255, 255,0.9);
+  font-size:1.3rem ;
+  margin: 0px 10%;
+  padding: 5px 10px;
+  outline: none;
+  width: 40%;
+  border:1px solid rgba(153, 153, 153, 0.3);
+  background:rgba(4, 208, 244, 0.3);
+}
+input::placeholder{
+  color:rgb(255, 255, 255,0.6); 
+}
+input:hover{
+  background:rgba(4, 208, 244, 0.2);
+}
+
+.ContenedorUno{
+  margin: 3%;
+/*   border: 1px solid red;
+ */  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+
+.ContenedorDos{
+/*   border: 1px solid rgba(4, 208, 244, 0.9);
+ */  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ContenedorDosImagen{
+  border-radius: 10px;
+  border: 3px solid rgba(4, 208, 244, 0.3);
+  background: rgba(4, 208, 244, 0.1);
+  margin: 10px 10px;
+  margin-bottom: 0px;
+  display: flex;
+  height: 150px;
+  box-sizing: border-box;
+}
+.ContenedorDosTitulo{
+  display: flex;
+  justify-content: center;
+
+/*   border: 1px solid yellow;
+ */}
